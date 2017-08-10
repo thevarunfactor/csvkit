@@ -32,7 +32,7 @@ A common usage of turning a CSV into a JSON file is for usage as a lookup table 
 
 .. code-block:: bash
 
-    csvjson --indent 4 --key fips acs2012_5yr_population.csv | head
+    csvjson --indent 4 --key fips --no-inference acs2012_5yr_population.csv | head
 
 .. code-block:: json
 
